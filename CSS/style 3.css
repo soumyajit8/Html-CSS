@@ -1,0 +1,29 @@
+.wrap{
+    min-width: 600px;
+    width: 80%;
+    margin: auto;
+    background: turquoise;
+    overflow: hidden;
+}
+.content,aside{
+    height: 600px;
+}
+.content{
+    background: burlywood;
+    float: left;
+    width: 70%;
+}
+aside{
+    background: azure;
+    float: left;
+    width: 30%;
+
+}
+aside ul{
+    list-style: none;
+    padding-left: 0;
+
+}
+footer{
+    clear: both;
+}

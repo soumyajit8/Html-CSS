@@ -1,0 +1,30 @@
+body{
+    font-family: sans-serif;
+}
+li{
+    display: inline;
+    padding-right: 30px;
+}
+ul a{
+    text-decoration: none;
+    color: brown;
+}
+ul a:hover{
+    text-decoration: underline;
+
+}
+label{
+    display: block; 
+    cursor: pointer;
+    color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 8px;
+
+}
+form ul{
+    padding left: 0;
+}
+textarea{
+    width: 400px;
+    height: 300px;
+}
