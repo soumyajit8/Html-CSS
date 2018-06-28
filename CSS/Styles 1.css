@@ -1,0 +1,19 @@
+
+div{
+    background: rgb(255, 174, 0);
+    width: 25%;
+    margin : auto;
+    text-align: center;
+}
+ol{
+    background-color: beige;
+    width:25%;
+    margin: auto;
+    text-align: center;
+}
+ul{
+    background: rgb(127, 255, 249);
+    width: 200px;
+    margin: auto;
+    
+}
