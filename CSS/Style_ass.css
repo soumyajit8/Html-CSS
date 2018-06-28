@@ -1,0 +1,34 @@
+.container_12{
+    background: gray;
+}
+nav li{
+    display: inline;
+    margin-left: 0;
+    margin-right: 20px;
+
+}
+aside{
+    background: antiquewhite;
+}
+.primary{
+    background: #e3e3e3;
+}
+header{
+    background: aqua;
+}
+ .main{
+     margin: 30px 0;
+ }
+ section{
+     box-sizing: border-box;
+     padding: 10px;
+
+ }
+ footer{
+    clear: both;
+}
+#contact{
+    background: red;
+   display: inline;
+
+}
