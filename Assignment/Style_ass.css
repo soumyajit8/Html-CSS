@@ -66,10 +66,10 @@ aside{
 .hero{
     background-image: url(../Images/hero.jpg);
     width: 100%;
-    height: 40%;
+    height: 20%;
     background-position: center;
-    text-align: center;
     background-repeat: no-repeat;
+    
 }
  section{
      box-sizing: border-box;
