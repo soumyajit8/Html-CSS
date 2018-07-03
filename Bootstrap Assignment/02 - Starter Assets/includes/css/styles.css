@@ -1,0 +1,112 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+body{
+    -webkit-font-smoothing:antialiased;
+    text-rendering: optimizeLegibility;
+}
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+.feature{
+    text-align: center
+}
+.feature image{
+    margin: 0 0 20px;
+}
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   #searchInput{
+       width: 200px;
+   }
+   .navbar-brand{
+       padding: 13px 15px;
+   }
+
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+#myCarousel .item{
+    height: 400px;
+}
+.shadow{
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(7, 7, 7);
+    text-shadow:
+    0 1px 0 white,
+    1px 1px 0 tan;
+}
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+.well{
+    margin: 20px 0;
+}
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+    #myCarousel .item{
+        height: 500px;
+    }
+
+}
+.pageheader{
+    background-image: url(../../images/hero.jpg);
+}
+.image{
+    width: 80%;
+    height: 50%;
+    padding-top: .10cm;
+}
+.col1{
+    font-style: oblique;
+    text-align: center;
+    background: grey;
+}
+.row1{
+    background-color: beige;
+    font-style: italic;
+    text-align: justify;
+}
+.row2{
+    background-color: #e3e3e3;
+    text-align: justify;
+    font-style: italic;
+}
+.row3{
+    background-color: aliceblue;
+    text-align: justify;
+    font-style: italic;
+}
