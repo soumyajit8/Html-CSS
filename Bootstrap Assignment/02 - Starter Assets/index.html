@@ -3,13 +3,22 @@
 <html>
 	<head>
 		<title></title>
+		<!-- <meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>My Portfolio</title>
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.2.0/ekko-lightbox.css" />
+		<link rel="stylesheet" href="css/style.css"> -->
 		<meta name="description" content="">
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-		 <!-- <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" --> --> --> --> -->
+		<!-- <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"> -->
+
 		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
 
 		<link href="includes/css/styles.css" rel="stylesheet">
@@ -18,40 +27,70 @@
 
 	</head>
 	<body>
-	   <div class="container" id="main">
-			<div class="navbar navbar-fixed-top">
-				<div class="container">
-					<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-						<span class="icon-bar"></span>
-					</button>
-					<a class="navbar-brand shadow" href="/">SOUMYAJIT</a>
-					<div class="nav-collapse collapse navbar-responsive-collapse">
-						<ul class="nav navbar-nav">
-							<li class="active">
-								<a href="#">Home</a>
-							</li>
-							<li class="about">
-								<a href="#">About</a>
-							</li>
-							<li class="portfolio">
-								<a href="#">Portfolio</a>
-							</li>
-							<li class="contacts">
-									<a href="#">Contacts</a>
-							</li>
-						</ul>
+		<nav class="navbar navbar-expand-sm navbar-light bg-light mb-3">
+			<div class="container">
+			  <a class="navbar-brand" href="#">Navbar</a>
+			  <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarNav"><span class="navbar-toggler-icon"></span></button>
+				<div class="collapse navbar-collapse" id="navbarNav">
+				  <ul class="navbar-nav mr-auto">
+					  <li class="nav-item">
+						  <a class="nav-link" href="#">Home</a>
+					  </li>
+					  <li class="nav-item">
+						  <a class="nav-link" href="#">About</a>
+					  </li>
+					  <li class="nav-item">
+						  <a class="nav-link" href="#">Portfolio</a>
+					  </li class="nav-item">
+					  <li class="nav-item">
+						  <a class="nav-link" href="#">Contacts</a>
+					  </li>
+				  </ul>
 
-						<form class="navbar-form pull-left">
-							<input type="text" class="form-control" placeholder="Search this site.." id="searchInput">
-
-							<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
-						</form>
-					</div>
+				  <form class="form-inline my-2 my-lg-0">
+					<input type="text" class="form-control mr-sm-2" placeholder="Search">
+					<button class="btn btn-outline-success my-2 my-sm-0">Search</button>
+				  </form>
 				</div>
+			  </div>
+		</nav>
+
+		 <div id="demo" class="carousel slide" data-ride="carousel">
+
+			<div class="container-fluid">
+					<ul class="carousel-indicators">
+						<li data-target="#demo" data-slide-to="0" class="active"></li>
+						<li data-target="#demo" data-slide-to="1"></li>
+					</ul>
+
+					<div class="carousel-inner" id="myCarousel">
+						<div class="carousel-item active">
+						<img src="images/Background.jpg" alt="los Angeles">
+					 	<div class="carousel-caption">
+							  <h3>Los Angeles</h3>
+							  <p>We had such a great time in LA!</p>
+					  	</div>
+					</div>
+					<div class="carousel-item">
+						<img src="images/Background2.jpg" alt="Chicago">
+						<div class="carousel-caption">
+							  <h3>Los Angeles</h3>
+							  <p>We had such a great time in LA!</p>
+						</div>
+					</div>
 			</div>
 
+			<a class="carousel-control-prev" href="#demo" data-slide="prev">
+				<span class="carousel-control-prev-icon"></span>
+		  	</a>
+			<a class="carousel-control-next" href="#demo" data-slide="next">
+				<span class="carousel-control-next-icon"></span>
+			</a>
+		</div>
+
+		 -->
+
+		<div>
 			<div class="carousel slide" id="myCarousel">
 
 				<ol class="carousel-indicators">
@@ -89,60 +128,70 @@
 			</div>
 		</div>
 
+		<div class="container">
+			    <div class="row">
+					<div class="row align-items-start" style="height:200px">
+						<div class="col-sm">
 
-		<div class="row" id="features">
-			<div class="col-sm-4 feature">
-				<div class="panel">
-					<div class="panel-heading">
-						<h3 class="panel-title">About</h3>
+							<div class="panel">
+								<div class="panel-heading">
+									<h3 class="panel-title">About</h3>
+								</div>
+								<img class="image" src="images/About.jpg" alt="About"/>
+								<p class="text-justify">
+									Hello there my name is SOUMYAJIT DAS . I am bachelor in B.Tech in COMPUTER SCIENCE AND
+									ENGINEERING from NIT AGARTALA . I have joined in IBM as a Associate System Engineer in
+									its biggest bussiness unit GBS(Global Bussiness Services) as a fresher .
+									Now undergoing through a learning program by STACKROUTE.
+								</p>
+							</div>
+
+						</div>
+						<div class="col-sm">
+
+							<div class="panel">
+								<div class="panel-heading">
+									<h3 class="panel-title">Portfolio</h3>
+								</div>
+
+								<img class="image" src="Images/Portfolio.jpg" alt="Portfolio"/>
+
+								<p class="text-justify">
+									As a fresher I don't have any proper job experience,but now through the learning program
+									in STACKROUTE i am learning the Frontend Development through HTML 5 and CSS in my first week.
+									Then in the coming week we will also be introduced to Backend and also Middleware Development.
+									So after that I can be called as a Full Stack Developer.
+								</p>
+							</div>
+
+						</div>
+
+						<div class="col-sm">
+							<div class="panel">
+								<div class="panel-heading">
+									<h3 class="panel-title">Hobbies</h3>
+								</div>
+
+								<img class="image" src="images/Hobby.jpg" alt="Hobby"/>
+
+								<p class="text-justify">
+									My hobbies mainly include listening to music and also in free time singing also
+									(though i left taking lessons) . I also like reading novels mainly by :- In Bengali -
+									Rabindranath Tagore,Sarat Chandra Chattopadhyay ; In English - Robin Sharma,Agatha Christie.
+									I am also a big fan of Football . My favourite national team - Germany , Club - Bayern Munich,
+									Real Madrid , East Bengal.
+								</p>
+
+							</div>
+
+						</div>
+
 					</div>
-					<img class="image" src="images/About.jpg" alt="About"/>
-					<p class="text-justify">
-						Hello there my name is SOUMYAJIT DAS . I am bachelor in B.Tech in COMPUTER SCIENCE AND
-						ENGINEERING from NIT AGARTALA . I have joined in IBM as a Associate System Engineer in
-						its biggest bussiness unit GBS(Global Bussiness Services) as a fresher .
-						Now undergoing through a learning program by STACKROUTE.
-					</p>
 				</div>
-			</div>
 
-			<div class="col-sm-4 feature">
-				<div class="panel">
-					<div class="panel-heading">
-						<h3 class="panel-title">Portfolio</h3>
-					</div>
-
-					<img class="image" src="Images/Portfolio.jpg" alt="Portfolio"/>
-
-						<p class="text-justify">
-							As a fresher I don't have any proper job experience,but now through the learning program
-							in STACKROUTE i am learning the Frontend Development through HTML 5 and CSS in my first week.
-							Then in the coming week we will also be introduced to Backend and also Middleware Development.
-							So after that I can be called as a Full Stack Developer.
-						</p>
-				</div>
-			</div>
-
-			<div class="col-sm-4 feature">
-				<div class="panel">
-					<div class="panel-heading">
-						<h3 class="panel-title">Hobbies</h3>
-					</div>
-
-					<img class="image" src="images/Hobby.jpg" alt="Hobby"/>
-
-					<p class="text-justify">
-						My hobbies mainly include listening to music and also in free time singing also
-						(though i left taking lessons) . I also like reading novels mainly by :- In Bengali -
-						Rabindranath Tagore,Sarat Chandra Chattopadhyay ; In English - Robin Sharma,Agatha Christie.
-						I am also a big fan of Football . My favourite national team - Germany , Club - Bayern Munich,
-						Real Madrid , East Bengal.
-					</p>
-
-				</div>
-			</div>
 		</div>
-		<div class="row" id="bigCallout">
+
+	<div class="row" id="bigCallout">
 			<div class="col_12">
 				<div class="well well-small visible-sm">
 					<a href="" class="btn btn-large btn-block btn-default"><span class="glyphicon glyphicon-phone"></span></a>
@@ -157,7 +206,7 @@
 	 <div class="col-12">
 			<header class="col-6 col1">
 				<h3>Projects</h3>
-				<p class="pro font-italic text-justify">
+				<p class="bg-secondary text-justify">
 					1) As the Final Year Project I and other 3 of my teammates did - "Image Cryptography Using Binary RSA Algorithm".
 					In which we have taken an image and converted it into a Base-64 text file using Python.
 					And then we Encrypted that text file through Binary RSA Algorithm using C.In this process
@@ -191,11 +240,33 @@
 				</div>
 			</div>
 		</div>
-</div>
+
+	<!-- <footer id="main-footer" class="p-5 bg-dark text-white">
+			<div class="row">
+			  <div class="col-md-6">
+				<a href="#" class="btn btn-outline-light"><i class="fa fa-cloud"></i> Download Resume</a>
+			  </div>
+			</div>
+	</footer> -->
+<!--
+	<script src="js/jquery.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.2.0/ekko-lightbox.js"></script>
+	<script>
+	  $('.port-item').click(function(){
+		$('.collapse').collapse('hide');
+	  });
+
+	  $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+		  event.preventDefault();
+		  $(this).ekkoLightbox();
+	  });
+	</script> -->
 
 	<script src="http://code.jquery.com/jquery.js"></script>
 
-	<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+	<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script> -->
 
 	<script src="bootstrap/js/bootstrap.min.js"></script>
 

@@ -38,13 +38,17 @@ body{
    .navbar-brand{
        padding: 13px 15px;
    }
+.jumb{
+  padding-top: 87px;
 
+}
 
 /* --------------------------------------
    Carousel
    -------------------------------------- */
-#myCarousel .item{
-    height: 400px;
+#myCarousel{
+    height: 80%;
+    width: 100%;
 }
 .shadow{
     font-family:Arial, Helvetica, sans-serif;
@@ -86,9 +90,18 @@ body{
     background-image: url(../../images/hero.jpg);
 }
 .image{
-    width: 80%;
+    width: 50%;
     height: 50%;
     padding-top: .10cm;
+}
+.image2{
+  background-image: url(images/hero.jpg);
+  width: 100%;
+  height: 50;
+
+}
+.WelCome{
+  text-align: center;
 }
 .col1{
     font-style: oblique;
@@ -109,4 +122,14 @@ body{
     background-color: aliceblue;
     text-align: justify;
     font-style: italic;
+}
+#moreInfo{
+  text-align: center;
+}
+
+.color{
+  background-color: grey;
+  font-style: italic;
+  font-color: white;
+  font-size: 10px;
 }
