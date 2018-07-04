@@ -11,21 +11,19 @@ body{
     margin: 0 0 20px;
 }
 
-
    #searchInput{
        width: 200px;
    }
    .navbar-brand{
        padding: 13px 15px;
    }
-
 .jumbotron{
 
 
 }
 
 #myCarousel{
-    height: 50%;
+    height: 80%;
     width: 100%;
 }
 .shadow{
@@ -36,18 +34,20 @@ body{
     1px 1px 0 tan;
 }
 
-
 .well{
     margin: 20px 0;
 }
+
 
 @media (max-width: 480px) {
 
 }
 
+
 @media (max-width: 768px) {
 
 }
+
 
 @media (min-width: 1200px) {
     #myCarousel .item{
@@ -73,7 +73,8 @@ body{
   text-align: center;
 }
 .col1{
-    font-style: oblique;
+  font-size: 20px;
+    font-style: italic;
     text-align: center;
     background: grey;
 }
@@ -101,4 +102,7 @@ body{
   font-style: italic;
   font-color: white;
   font-size: 10px;
+}
+.info{
+  text-align: right;
 }
